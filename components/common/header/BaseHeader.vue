@@ -41,6 +41,7 @@ export default Vue.extend({
   },
   methods: {
     handleGoBack () {
+      consoel.log('a', a)
       window.history.go(-1)
     },
   },
