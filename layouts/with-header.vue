@@ -1,5 +1,7 @@
 <template>
-  <nuxt class="with-title-header" />
+  <v-app>
+    <nuxt class="with-title-header" />
+  </v-app>
 </template>
 <script lang='ts'>
 import Vue from 'vue'

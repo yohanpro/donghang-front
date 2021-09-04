@@ -8,6 +8,9 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    colors: {
+      greenyBlue: '#3eb7b0',
+    },
     screens: {
       tablet: '640px',
       // => @media (min-width: 640px) { ... }

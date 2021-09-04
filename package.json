@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt-ts",
-    "build": "nuxt-ts build",
-    "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "yarn lint:js",
     "test": "jest"
@@ -14,10 +14,12 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.1.0",
     "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/vuetify": "^1.12.1",
     "core-js": "^3.15.1",
     "date-fns": "^2.23.0",
     "dayjs": "^1.10.6",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "vuetify": "^2.5.8"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",

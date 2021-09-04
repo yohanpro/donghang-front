@@ -1,15 +1,17 @@
 <template>
-  <div>메인 페이지</div>
+  <div>
+    <MainArticles />
+  </div>
 </template>
 <script lang='ts'>
 import Vue from 'vue'
 export default Vue.extend({
   name: 'Main',
-  methods: {
-
+  components: {
+    MainArticles: () => import('./MainArticles/index.vue'),
   },
+  methods: {},
 })
 </script>
 <style lang='scss'>
-
 </style>
