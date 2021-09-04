@@ -89,7 +89,7 @@ export default Vue.extend({
   border: none;
   display: flex;
   &__title {
-
+    font-size: 1.3rem;
     font-weight: 500;
     font-family: 'Khn-heading';
   }

@@ -12,6 +12,7 @@ module.exports = {
       greenyBlue: '#3eb7b0',
     },
     screens: {
+      phone: '360px',
       tablet: '640px',
       // => @media (min-width: 640px) { ... }
 
